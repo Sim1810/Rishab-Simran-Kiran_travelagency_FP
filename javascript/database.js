@@ -5,7 +5,9 @@ var loginstatus = window.localStorage.getItem('login');
 if(loginstatus == "yes"){
     
 }
-
+function clear(){
+    localStorage.clear()
+}
 function checkstatus(){
     var loginstatus = window.localStorage.getItem('login');
 
